@@ -1,0 +1,134 @@
+a{
+    text-decoration: none;
+}
+.navbar-container{
+    box-sizing: border-box;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}   
+.navbar-content{
+    display: flex;
+    opacity: 1;
+    padding: 10px;
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+   
+}
+.logo{
+    width: 10%;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #2f55d4;
+    text-transform: capitalize;
+   letter-spacing: 0.5px;
+   position: absolute;
+    left: 15%;
+}
+.navigation-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+}
+.navlist{
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    list-style: none;
+}
+.navlist-item{
+    float: left;
+    display: block;
+    margin: 0 10px;
+    display: block;
+    /* color: #3c4858; */
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-transform: uppercase;  
+padding: 25px 15px;
+}
+.light{
+      color: #3c4858;
+       background-color: initial!important;
+}
+.icons-extra{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+}
+.settings-icons-light{
+   color: #2f55d4;
+    background: rgba(241, 238, 238, 0.863);
+}
+.settings-icons
+{  
+    width: 35px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+}
+.settings-icons:hover{
+    color:rgba(241, 238, 238, 0.863);
+    background:#2f55d4;
+}
+
+.cart-icons{
+    width: 35px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+    background: #2f55d4;
+    border-radius: 50%;
+    padding: 5px;
+}
+.icons
+{
+    margin-right: 20px;
+    font-size: 34px;
+    width: 50px;
+    height: 50px;
+}
+.subnav-manu{
+    border: 2px solid black;
+    display: flex;
+}
+.subnav-manu >div{
+    width: 20%;
+    border: 2px solid black;
+}
+.submenu-list{
+    list-style: none;
+}
+@media screen and (max-width:480px) {
+    .navlist{
+        background-color: yellow;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 40%;
+        display: none;
+    }
+    .logo{
+        width: 40%;
+        left :5%;
+        top: 25%;
+    }  
+    .navlist-item{
+        color: #3c4858;
+    } 
+}
+
+@media (min-width: 768px) and (max-width: 2000px) {
+    .hamburger-react{
+        display: none;
+    }  
+}

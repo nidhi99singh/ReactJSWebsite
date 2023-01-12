@@ -1,0 +1,50 @@
+{
+    "Header": {
+        "Home": {
+            "FullDemos": [
+                "CORPORATE",
+                "SHOP",
+                "PORTFOLIO",
+                "HELP CENTER",
+                "BLOGS",
+                "HOST & DOMAIN"
+            ]
+        },
+        "Landing": {
+            "LandingPages": [
+                "SAAS",
+                "AGENCY",
+                "STUDIO",
+                "MARKETING",
+                "SERVICE",
+                "PAYMENTS"
+            ]
+        },
+        "Pages": {
+            "Company": [
+                "About Us",
+                "About Us Two",
+                "History",
+                "Term",
+                "Pricing"
+            ]
+        },
+        "Demos": {
+            "CaseStudy": [
+                "All Cases",
+                "Case Details"
+            ]
+        },
+        "Components": {
+            "comp1": [
+                "Tables",
+                "Pagination",
+                "Buttons",
+                "Background",
+                "shadows",
+                "Icons",
+                "carousel"
+            ]
+        }
+    }
+}

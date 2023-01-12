@@ -1,0 +1,189 @@
+.container{
+    width: 100%;
+   
+    font-family: "Nunito",sans-serif;
+    padding: 100px 0;
+}
+.container-light{
+    background-color: #f8f9fa;  
+}
+.container-dark{
+    background-color: #1f2d3d;
+    color: white;
+}
+.heading-section{
+    text-align: center;
+    /* padding: 100px 0 40px; */
+   padding: 20px 20px 50px;
+}
+.title{
+    letter-spacing: 1px;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.para{
+    max-width: 600px;
+    color: #8492a6;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.heading-section-span{
+    color: #2f55d4;
+    font-weight: 700;
+}
+.section-two{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+.section-two >div{
+width: 40%;
+}
+
+.image
+{
+   width: 100%;
+    max-height: 500px;
+    padding: 30px;
+
+}
+.work-list{
+    list-style: none;
+    line-height: 36px;
+    padding: auto;
+}
+.tickcircle-icon{
+    color: #2f55d4;
+    background: transparent;
+    margin-right: 10px;
+   
+}
+.list-item{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.morelink{
+    color:#2f55d4 ;
+    line-height: 3.4;
+    display: flex;
+    align-items: center;
+}
+.landrick-word{
+    color: #2f55d4;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
+.form-container{
+    border: 1ps solid lightgray;
+    box-shadow: 0 0 3px rgba(60,72,88,.15);
+    border-radius: 6px;
+    width: 70%;
+    padding: 30px;
+    margin-left: 100px;
+}
+.form-container-dark{
+background-color: #1c2836;
+}
+.form-container-light{
+    background-color: white;
+}
+.form-image{
+    max-height: 360px;
+    max-width: 300;
+}
+.input-section{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #3c4858;
+    margin: 10px 0 16px 0;
+    position: relative;
+}
+.input-field{
+            border-radius: 6px;
+            width: 100%; 
+            padding: 12px 40px; 
+            margin: 8px 0; 
+            display: inline-block; 
+            border: 1px solid #e9ecef;
+            box-sizing: border-box;
+            background-color: transparent;
+}
+.input-field-light{
+    border: 1px solid #e9ecef;
+}
+.input-field-dark{
+    /* background-color: transparent; */
+    border:1px solid #2a3c51;
+}
+.input-field:focus {
+    border-color: #2f55d4;    box-shadow: none;outline: 0px;
+}
+.input-icon{
+   position: absolute;
+    left: 15px;
+            top: 20px;
+   
+}
+.input-label{
+    font-weight: 700;
+    font-size: 14px;
+}
+.login-form{
+    margin-top:40px;
+}
+.download-btn{
+    color:white;
+    background-color:#2f55d4 ;
+    border: none;
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: "Nunito",sans-serif;
+    letter-spacing: 1px;
+}
+.icon-container{
+    border: 2px solid yellow; position: absolute;top: 13px;
+    left: 18px;
+}
+.input-container{
+    border: 2px solid black;
+    width: 100%;
+    text-align: left;    
+}
+
+@media screen and (max-width:480px) {
+    .container{
+        padding: 40px 0;
+    }
+    .section-two{
+        flex-direction: column;
+        padding: 0;
+    }
+    .section-two > div{
+        width: 100%;
+        padding: 0 20px;
+
+    }
+    .work-list{
+        line-height: 1.4;
+    }
+    .title{
+        margin-top: 50px !important;
+
+    }
+    .form-container{
+        margin: auto;
+        width: 100%;
+    }
+}

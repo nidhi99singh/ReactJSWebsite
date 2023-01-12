@@ -1,0 +1,259 @@
+.sliderSection-container{
+    width: 100%;
+    font-family: "Nunito",sans-serif;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sliderSection-content{
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 29px;
+}
+.sliderSection-head4{
+    line-height: 1.4;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 0 8px;
+}
+.carousel-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.carousel-container{
+    width: 70%;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.carousel-card{
+    display: inline;
+    flex-direction: row
+    ;
+    width: 30%;
+border: 2px solid black;
+}
+.cards-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cards-container{
+    width: 90%;
+    align-items: center;
+    display: flex;
+}
+.buynow-content{
+    width: 35%;
+    margin-left: 90px;
+    padding: 20px;
+}
+.cards-area{
+width: 100%;
+margin: 10px;
+padding: 20px;
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+}
+@media (min-width: 1024px) {
+
+    .cards-area{
+
+        width: 65%;
+        flex-direction: row;
+
+  }}
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    .card-1{
+
+        width: 45%;
+
+  }}
+.buynowbtn{
+    padding: 10px 20px;
+    outline: none;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: .5px;
+    transition: all .3s;
+    border-radius: 6px;
+    text-transform: capitalize;
+    background-color: #2f55d4;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.version-span{
+    background-color: #e43f52;
+    color: white;
+    border-radius: 8px;
+    font-size: 10px;
+    padding: 3px 10px;
+    text-transform: lowercase;
+    margin-left: 10px;
+}
+.card-1{
+    width: 100%;
+    border-radius: 6px;
+    border-bottom: 3px solid #2f55d4;
+    transition: all .5s ease;
+    box-shadow: 0 0 3px rgba(60,72,88,.15);
+    padding: 35px 24px;
+    z-index: 6;
+    /* background-color: transparent; */
+    /* position: absolute; */
+    /* right: 33%; */
+  
+}
+.card-1-light{
+    background-color: white;
+}
+.card-1-dark{
+    background-color:  #1c2836;
+
+}
+@media (min-width: 1024px) {
+
+    .card-1{
+
+        width: 20%;
+        border-radius: 6px;
+        border-bottom: 3px solid #2f55d4;
+        transition: all .5s ease;
+        box-shadow: 0 0 3px rgba(60,72,88,.15);
+        padding: 35px 24px;
+        z-index: 2;
+        position: absolute;
+        right: 33%;
+        /* background-color: white; */
+
+  }}
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    .card-1{
+
+        width: 45%;
+
+  }}
+.card-2{
+    width:100%;
+    border-radius: 6px;
+    z-index: 1;
+   
+    transition: all .5s ease;
+    box-shadow: 0 0 3px rgba(60,72,88,.15);
+    margin-right: 95px;
+    /* padding: 25px 0 25px 24px; */
+    
+    padding: 35px 24px;
+    /* background-color: #f8f9fa; */
+    margin-top: 10px;
+
+}
+
+.card-2-light{
+    background-color: #f8f9fa;
+    border-bottom: 3px solid #e9ecef;
+}
+.card-2-dark{
+    background-color:  #1f2d3d;
+    border-bottom: 3px solid #afb1b3;
+
+}
+@media (min-width: 1024px) {
+
+    .card-2{
+
+        width:45%;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    transition: all .5s ease;
+    box-shadow: 0 0 3px rgba(60,72,88,.15);
+    margin-right: 95px;
+    padding: 25px 24px 25px 70px;
+    left: 0%;
+    margin-top: 10px;
+
+  }}
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    .card-2{
+
+        width: 45%;
+
+  }}
+.card-area-title{
+    color: #2f55d4;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 18px;
+    padding:20px 0;
+}
+.subscription-charge{
+    /* color: #161c2d; */
+    padding-bottom: 20px;
+}
+.charge-light{
+    color: #161c2d; 
+}
+.charge-dark{
+    color: white;
+}
+.dollar-symbol,.duration{
+    font-size: 24px;
+}
+.pricing{
+    font-size: 42px;
+}
+@media screen and (max-width:480px) {
+    .cards-container{
+        flex-direction: column;
+    }
+    .buynow-content{
+        width: 100%;
+        margin: auto;
+    }
+    
+    /* .card-1{
+        width: 100%;
+        left: 0;
+    }
+    .card-2{
+        top:80%; 
+        width: 100%;
+        position: static;
+    } */
+    
+}
+
+/* @media (min-width: 1024px) {
+
+    .wishlist-card{
+
+        width: 32%;
+
+  }}
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    .wishlist-card{
+
+        width: 45%;
+
+  }} */

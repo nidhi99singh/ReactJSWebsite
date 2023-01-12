@@ -1,0 +1,36 @@
+
+.brands-container{
+    width: 100%;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 24px 0;
+    margin-top: 150px;
+}
+.brand
+{
+    padding: 24px 12px;
+
+}
+.brand-content-box
+{
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+  
+}
+.brand-img{
+   
+    width: 100%;
+    max-height: 25px;
+}
+@media screen and (max-width:480px) {
+    .brands-container{
+        margin: auto;
+    }
+    .brand{
+        width: 50%;
+    }
+   
+}

@@ -1,0 +1,100 @@
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main-container > div
+{
+    width: 40%;
+    margin-top: 60px;
+}
+
+.herobanner-content{
+  
+    font-family: "Nunito",sans-serif;
+    padding: 40px; 
+}
+.title-heading{
+    font-size: 45px!important;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+   margin-top: 140px;
+   
+}
+.title-heading span{
+    color:#2f55d4;
+}
+.title-paragraph{
+    font-size: 16px;
+    color: #8492a6!important;
+    line-height: 1.6;
+
+}
+.herobanner-image{
+    max-height: 500px;
+    width: 500px;
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+}
+.buttons button{
+    padding: 10px 20px;   
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: .5px;
+    transition: all .3s;
+    font-weight: 600;
+    border-radius: 6px;
+    text-transform: capitalize;   
+    border: none;
+    font-family: "Nunito",sans-serif;
+    margin-right: 20px;
+}
+.startbtn{
+    color: white;
+    background-color: #2f55d4;
+    outline: none;
+    display: flex;
+}
+.documentationbtn{
+    /* background-color: white;
+    color: #2f55d4; */
+    outline: 1px solid #2f55d4;
+    display: flex;
+}
+.documentationbtn-light{
+background-color: white;
+    color: #2f55d4;
+}
+.documentationbtn:hover{
+        color:rgba(241, 238, 238, 0.863);
+        background:#2f55d4;
+    
+}
+.icon{
+    font-size: 18px;
+    padding-right: 5px;
+} 
+@media screen  and (max-width:480px){
+    .main-container >div{
+        width: 100%;
+        margin: auto;
+    }
+    .herobanner-image{
+        width: 100%;
+    padding: 30px;
+    }
+    .title-heading{
+        margin-top: auto;
+    }
+    .herobanner-content{
+        padding: 20px;
+    }
+    .buttons button{
+        padding: 10px ;
+    }
+}
